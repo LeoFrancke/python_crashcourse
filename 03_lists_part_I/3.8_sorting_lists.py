@@ -27,4 +27,3 @@ print(list_1)
 list_1.reverse()  # permanent
 print(list_1)
 
-

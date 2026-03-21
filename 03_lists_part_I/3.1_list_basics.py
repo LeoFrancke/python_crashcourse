@@ -2,7 +2,7 @@
 #   some languages call them "arrays", but in python: lists.
 
 
-names = ['julia', 'maicon', 'matheus']
+names = ['ricardo', 'leandro', 'matheus']
 
 # indexes start at 0.
 print(names[0])
