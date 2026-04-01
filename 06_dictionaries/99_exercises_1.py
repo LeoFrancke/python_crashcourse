@@ -22,6 +22,6 @@ favorite_number = {
         'leo': 1,
         'jens': 77,
         }
-for key, value in favorite_number.items():
-    print(f"{key.title()}'s favorite number is: {value}\n")
+for name, number in favorite_number.items():
+    print(f"{name.title()}'s favorite number is: {number}\n")
 
