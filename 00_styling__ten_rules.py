@@ -77,7 +77,7 @@ def process_game():
 
 
 # Rule 10. Function Parameters
-# Add 4 spaces (an extra level of indentation) to distinguish parameters.
+# Add an extra level of indentation to distinguish parameters.
 def function_name(
         parameter1, parameter2,
         parameter3, parameter4
