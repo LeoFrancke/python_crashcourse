@@ -1,4 +1,5 @@
 # this is a simple message
 
-name = 'richard'
-print(f"Hello {name.title()}, how are you today?")
+name = "leandro"
+print(f"Hello, {name.title()}")
+
