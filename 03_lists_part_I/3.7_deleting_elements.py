@@ -1,5 +1,5 @@
 # Copy of exercise 3.5:
-guest_list = ['richard feynman', 'jordan peterson', 'carl sagan', 'linus torvalds']
+guest_list = ['richard feynman', 'asimov', 'carl sagan', 'linus torvalds']
 
 # Copy of exercise 3.6:
 guest_list.insert(0, 'eric matthes')
@@ -26,7 +26,7 @@ index_zero_item = guest_list.pop(0)
 # Removing by value
 guest_list.remove('richard feynman')
 
-# Deliting by index
+# Deleting by index
 del guest_list[0]
 
 

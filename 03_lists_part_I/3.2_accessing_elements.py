@@ -1,14 +1,12 @@
 names = ['ricardo', 'leandro', 'matheus']
 
 
-
 # We start counting at 1; 
 # but python starts indexing at 0.
 
 print(f'Greetings, {names[0].title()}!')
 print(f'Greetings, {names[1]}!')
 print(f'Greetings, {names[2]}!')
-
 
 
 

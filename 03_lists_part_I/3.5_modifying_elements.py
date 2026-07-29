@@ -1,11 +1,11 @@
-guest_list = ['richard feynman', 'jordan peterson', 'carl sagan', 'linus torvalds']
+guest_list = ['richard feynman', 'asimov', 'carl sagan', 'linus torvalds']
 
-print(f"{guest_list[3].title()} won't be able to make it to the party.\n\n")
+print(f"{guest_list[2].title()} won't be able to make it to the party.\n\n")
 
 
 
 # Changing a list's element value
-guest_list[3] = 'tur1st'
+guest_list[2] = 'tur1st'
 
 
 

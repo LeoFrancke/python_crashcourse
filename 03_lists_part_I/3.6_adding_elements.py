@@ -1,5 +1,5 @@
 # Copy of exercise 3.5:
-guest_list = ['richard feynman', 'jordan peterson', 'carl sagan', 'linus torvalds']
+guest_list = ['richard feynman', 'asimov', 'carl sagan', 'linus torvalds']
 
 print(guest_list)
 print(f"{guest_list[3].title()} won't be able to make it to the party.\n\n")

@@ -5,9 +5,9 @@
 names = ['ricardo', 'leandro', 'matheus']
 
 # indexes start at 0.
-print(names[0])
-print(names[1])
-print(names[2])
+print(f'Hello, {names[0]}!')
+print(f'Hello, {names[1]}!')
+print(f'Hello, {names[2]}!')
 
 
 # length of an iterable (list or string)
