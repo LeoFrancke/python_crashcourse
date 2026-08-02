@@ -28,3 +28,14 @@ for i in range(1, 11):
 print(squares)
 
 
+###
+simple_foods = ('pizza', 'pasta', 'fish', 'dessert', 'drinks')
+for food in simple_foods:
+    print(food)
+
+
+print()
+simple_foods = ('pizza', 'macarroni', 'fish', 'dessert', 'drinks')
+for food in simple_foods:
+    print(food)
+
