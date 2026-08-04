@@ -21,7 +21,7 @@ elif bitcoin >= 66_000_000 and bitcoin < 72_000_000:
     print('Uncertain move. Wait before taking a decision.')
     pass
 elif bitcoin > 100_000_000:
-    pass
+    sell()
 else:
     print('in case every test fails, this line will be executed.')
 
