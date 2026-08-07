@@ -21,5 +21,5 @@ print(book_01)
 
 # avoiding Key-errors:
 # use the get() method -- if the key doesn't exist, you avoid getting an error.
-print(f"book name: {book_01.get('title', 'No title value assigned (clean error msg)')}")
+print(f"book name: {book_01.get('title', 'No title value assigned')}")
 

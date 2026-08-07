@@ -49,12 +49,12 @@ if not foo is None:
 
 # Rule 8. Use Truthiness Properly
 # Correct:
-if greeting:
+if greeting:        
 # Wrong:
 if greeting == True:
 
 # Also:
-if players:
+if players:             # checking if list is empty
 # Not:
 if len(players) > 0:
 
