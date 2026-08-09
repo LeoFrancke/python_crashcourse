@@ -32,8 +32,6 @@ squares = [value**2 for value in range(11)]
 print(squares)
 
 
-
-
 # slices
 simple_list = ['один', 'два', 'три', 'четыре', 'пять', 'шесть', 'семь', 'восемь', 'девять']
 print('first three:')

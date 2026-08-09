@@ -7,7 +7,7 @@ for magician in magicians:
     print(magician)
 
 
-# In other languages, like C, you need to create a loop the size of the array;
+# In other languages, like C or C++, you need to create a loop the size of the array;
 #    then access each item by its index
 for i in range(0, len(magicians)):
     print(magicians[i])

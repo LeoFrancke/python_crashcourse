@@ -7,15 +7,12 @@ print('--')
 
 
 # numerical lists
-
 for i in range(0, 11):
     print(i)
 
 
-
 numbers = list(range(1, 6))
 print(numbers)
-
 
 odd_numbers = list(range(1, 12, 2))
 print(odd_numbers)

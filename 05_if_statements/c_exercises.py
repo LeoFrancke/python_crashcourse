@@ -13,7 +13,6 @@ else:
 
 
 
-
 print('\n\n')
 # 5.10
 current_users = usernames[:]
