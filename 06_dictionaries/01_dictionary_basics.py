@@ -9,14 +9,11 @@ book_01 = {
 # accessing a value
 print(f"The book {book_01['title']} has {book_01['pages']} pages or so.")
 
-
 # adding new key-value pairs
 book_01['press'] = 'No Starch Press'
-print(book_01['press'])
 
 # deleting a key-value pair
 del book_01['pages']
-print(book_01)
 
 
 # avoiding Key-errors:
