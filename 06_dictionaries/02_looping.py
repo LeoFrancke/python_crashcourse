@@ -7,8 +7,7 @@ character = {
 
 ## the method .items() returns a sequence of key-value pairs.
 for key, value in character.items():
-    print(f"\nKey: {key.title()}")
-    print(f"Value: {value}")
+    print(f"\n{key.title()}: {value}")
 
 print('', end='\n\n')
 
