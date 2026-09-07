@@ -1,4 +1,4 @@
-usernames = ['leo', 'ricardo', 'admin', 'user', 'hello, friend']
+usernames: list[str] = ['leo', 'ricardo', 'admin', 'user', 'hello, friend']
 # usernames = []
 
 # if the list is not empty

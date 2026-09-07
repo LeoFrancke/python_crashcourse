@@ -1,5 +1,5 @@
-string1 = 'python'
-string2 = 'PytHon'
+string1: str = 'python'
+string2: str = 'PytHon'
 
 print('String comparison')
 print(string1 == string2)
@@ -21,7 +21,7 @@ print(5 > 4 or 5 > 5)
 
 
 print('List test')
-pizzas = ['mussarela', 'bacon']
+pizzas: list[str] = ['mussarela', 'bacon']
 print('bacon' in pizzas)
 print('bacon' not in pizzas)
 

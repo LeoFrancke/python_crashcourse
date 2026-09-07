@@ -1,4 +1,4 @@
-message = '"Act small, every day. Dream big."'
-author = "James Clear" 
+message: str = '\n\t"Act small, every day. Dream big."'
+author: str = "James Clear" 
 
-print(author + ": " + message)
+print(f"{author}: {message}")

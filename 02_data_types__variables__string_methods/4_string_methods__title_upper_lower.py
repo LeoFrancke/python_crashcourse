@@ -1,4 +1,4 @@
-name = "RiCaRdo"
+name: str = "RiCaRdo"
 
 print(name.lower())
 print(name.upper())

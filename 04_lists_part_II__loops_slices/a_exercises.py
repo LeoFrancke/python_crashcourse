@@ -33,7 +33,11 @@ print(squares)
 
 
 # slices
-simple_list = ['один', 'два', 'три', 'четыре', 'пять', 'шесть', 'семь', 'восемь', 'девять']
+simple_list: list[str] = [
+    'один', 'два', 'три', 'четыре', 'пять', 
+    'шесть', 'семь', 'восемь', 'девять',
+]
+
 print('first three:')
 print(simple_list[:3])
 print('three in the middle:')
@@ -44,12 +48,12 @@ print(simple_list[-3:])
 
 
 # tuples
-menu = ('food 1', 'food 2', 'food 3')
+menu: tuple[str] = ('food 1', 'food 2', 'food 3')
 for food in menu:
     print(food)
 
 # menu[0] = 'altered food'
-menu = ('altered food', 'food 2', 'food 3')
+menu: tuple[str] = ('altered food', 'food 2', 'food 3')
 for food in menu:
     print(food)
 

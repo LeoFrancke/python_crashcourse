@@ -1,11 +1,11 @@
-favorite_languages = {
+favorite_languages: dict[str, str] = {
         'leo': 'c++',
         'linus': 'c',
         'monty': 'python',
         }
 
 
-people_to_take_the_poll = ['leo', 'matheus', 'linus']
+people_to_take_the_poll: list[str] = ['leo', 'matheus', 'linus']
 
 for person in people_to_take_the_poll:
 

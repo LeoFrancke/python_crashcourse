@@ -2,7 +2,7 @@
 #   tip: make all lowercase -> avoids problems
 
 # list of cars
-cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars: list[str] = ['bmw', 'audi', 'toyota', 'subaru']
 print(cars)
 
 
@@ -22,7 +22,7 @@ print(cars)
 
 
 # Reversing (permanent) original list's order: Reverse() Method
-list_1 = ['byte', 'ah' , 'thing', 'same thing']
+list_1: str[str] = ['byte', 'ah' , 'thing', 'same thing']
 print(list_1)
 list_1.reverse()  # permanent
 print(list_1)

@@ -1,5 +1,5 @@
 # tuples: immutable lists.
-my_tuple = (10, 20, 30, 40)
+my_tuple: tuple[int] = (10, 20, 30, 40)
 print(my_tuple)
 
 

@@ -1,5 +1,5 @@
 # this is a simple message
 
-name = "leandro"
+name: str = "leandro"
 print(f"Hello, {name.title()}")
 

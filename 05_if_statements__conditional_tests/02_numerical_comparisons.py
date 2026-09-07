@@ -1,5 +1,5 @@
 
-age = 30
+age: int = 30
 
 # True
 print(age == 30)

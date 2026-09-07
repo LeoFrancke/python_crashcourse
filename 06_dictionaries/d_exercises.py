@@ -1,4 +1,4 @@
-rivers = {
+rivers: dict[str, str] = {
         'nile': 'egypt',
         'amazon': 'brazil',
         'mississippi': 'usa',

@@ -1,4 +1,4 @@
-fruits = ['lemon', 'tomato', 'grape', 'banana']
+fruits: list[str] = ['lemon', 'tomato', 'grape', 'banana']
 
 
 # Checking whether a value is inside a list

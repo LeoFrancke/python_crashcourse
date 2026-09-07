@@ -1,4 +1,4 @@
-name = '\n \t leandro  \n'
+name: str = '\n \t leandro  \n'
 
 print(name)
 print(name.rstrip())

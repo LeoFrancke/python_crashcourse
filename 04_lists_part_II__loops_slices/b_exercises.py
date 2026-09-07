@@ -1,4 +1,4 @@
-pizzas = ['mussarela', 'four cheese']
+pizzas: list[str] = ['mussarela', 'four cheese']
 
 for pizza in pizzas:
     print(pizza)
@@ -18,7 +18,7 @@ odd_numbers = list(range(1, 12, 2))
 print(odd_numbers)
 
 
-squares = []
+squares: list[int] = []
 for i in range(1, 11):
     squares.append(i ** 2)
 
@@ -26,13 +26,13 @@ print(squares)
 
 
 ###
-simple_foods = ('pizza', 'pasta', 'fish', 'dessert', 'drinks')
+simple_foods: tuple[str] = ('pizza', 'pasta', 'fish', 'dessert', 'drinks')
 for food in simple_foods:
     print(food)
 
 
 print()
-simple_foods = ('pizza', 'macarroni', 'fish', 'dessert', 'drinks')
+simple_foods: tuple[str] = ('pizza', 'macarroni', 'fish', 'dessert', 'drinks')
 for food in simple_foods:
     print(food)
 

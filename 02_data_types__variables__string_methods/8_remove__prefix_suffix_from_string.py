@@ -1,7 +1,7 @@
 # removesuffix()
 # removeprefix()
 
-filename = 'python_notes.txt'
+filename: str = 'python_notes.txt'
 
 print(filename)
 print(filename.removesuffix('.txt'))

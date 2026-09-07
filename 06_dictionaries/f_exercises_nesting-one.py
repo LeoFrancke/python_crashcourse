@@ -13,7 +13,7 @@ person_2 = {
         'city': 'Pasadena',
         }
 
-people = []
+people: list = []
 people.append(person_1)
 people.append(person_2)
 

@@ -1,7 +1,7 @@
-current_usernames = ['leo', 'ricardo', 'matthew', 'Sofia', 'Richard']
-new_users = ['Ricardo', 'Steven', 'Matthew', 'SOFIA', 'riCHArd', 'uSER']
+current_usernames: list[str] = ['leo', 'ricardo', 'matthew', 'Sofia', 'Richard']
+new_users: list[str] = ['Ricardo', 'Steven', 'Matthew', 'SOFIA', 'riCHArd', 'uSER']
 
-current_usernames_lowercase = []
+current_usernames_lowercase: list[str] = []
 
 # making a copy of all current users in lowercase
 for user in current_usernames:

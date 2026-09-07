@@ -1,4 +1,4 @@
-magicians = ['alice', 'david', 'carolina']
+magicians: list[str] = ['alice', 'david', 'carolina']
 
 
 # In python, it's pretty straightforward to loop through a list
@@ -14,13 +14,11 @@ for i in range(0, len(magicians)):
 
 
 
-
 # Simple exercise: no-index syntax
-favorite_pizzas = ['four cheese', 'canadian bacon', 'mushrooms']
+favorite_pizzas: list[str] = ['four cheese', 'canadian bacon', 'mushrooms']
 
 for pizza in favorite_pizzas:
     print(f"I love {pizza.title()} pizza!")
 
 print("I really love pizza!")
-
 

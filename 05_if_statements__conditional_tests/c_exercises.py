@@ -1,5 +1,5 @@
 # 5.8 ~ 5.9
-usernames = ['leofrancke', 'admin', 'mrRobot', 'tour1st', 'linustorvalds']
+usernames: list[str] = ['leofrancke', 'admin', 'mrRobot', 'tour1st', 'linustorvalds']
 # usernames = []
 
 if usernames:
@@ -16,15 +16,15 @@ else:
 print('\n\n')
 # 5.10
 current_users = usernames[:]
-current_users_lowercase = []
-for current_user in current_users:
-    current_users_lowercase.append(current_user.lower())
+current_users_lowercase: list[str] = []
+for user in current_users:
+    current_users_lowercase.append(user.lower())
 
 new_users = ['neo', 'LeoFrancke', 'Mrrobot', 'carlsen', 'tour1st']
 
-for new_user in new_users:
-    if new_user.lower() not in current_users_lowercase:
-        print(f"The username {new_user} is available.")
+for user in new_users:
+    if user.lower() not in current_users_lowercase:
+        print(f"The username {user} is available.")
     else:
-        print(f"I'm sorry, but '{new_user}' already exists. Choose a new username.")
+        print(f"I'm sorry, but '{user}' already exists. Choose a new username.")
 

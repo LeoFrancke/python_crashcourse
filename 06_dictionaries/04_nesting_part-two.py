@@ -1,10 +1,11 @@
 # Storing a list in a dictionary
 
 # info about a pizza being ordered
+#   > avoiding Type Hints in nested containers.
 pizza = {
-        'crust': 'thick',
-        'toppings': ['mushrooms', 'four cheese'],
-        }
+    'crust': 'thick',
+    'toppings': ['mushrooms', 'four cheese'],
+}
 
 # Summarize the order:
 print(f"You ordered a {pizza['crust']}-crust pizza "

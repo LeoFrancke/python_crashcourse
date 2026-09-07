@@ -1,5 +1,5 @@
 # Copy of exercise 3.5:
-guest_list = ['richard feynman', 'asimov', 'carl sagan', 'linus torvalds']
+guest_list: list[str] = ['richard feynman', 'asimov', 'carl sagan', 'linus torvalds']
 
 # Copy of exercise 3.6:
 guest_list.insert(0, 'eric matthes')

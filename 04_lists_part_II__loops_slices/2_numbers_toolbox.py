@@ -1,7 +1,7 @@
 # range()
 # min() / max() / sum()
 
-digits = [1, 2, 3, 4, 5, 0]
+digits: list[int] = [1, 2, 3, 4, 5, 0]
 print(digits)
 print(f'minimum value: {min(digits)}')
 print(f'maximum value: {max(digits)}')
@@ -17,7 +17,7 @@ for n in range(0, 11, 2):
 
 
 print('\nList of squares:')
-squares = []
+squares: list[int] = []
 for n in range(0, 11):
     squares.append(n ** 2)
 

@@ -1,6 +1,6 @@
 # Copying a list can generate unexpected behavior. Use slices to avoid that.
 
-my_favorite_pizzas = ['four cheese', 'canadian bacon', 'mushrooms']
+my_favorite_pizzas: list[str] = ['four cheese', 'canadian bacon', 'mushrooms']
 julia_favorite_pizzas = my_favorite_pizzas[:]
 # first_list = list_copy[:]             # slice with indexes omitted.
 

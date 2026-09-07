@@ -12,7 +12,7 @@ else:
 
 # elif => else, if...
 #         it creates another condition.
-bitcoin = 70_000_000
+bitcoin: int = 70_000_000
 if bitcoin < 60_000_000:
     buy()
 elif bitcoin >= 60_000_000 and bitcoin < 65_000_000:

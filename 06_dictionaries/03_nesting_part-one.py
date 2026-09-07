@@ -1,6 +1,6 @@
 # Storing a dictionary in a list
 # an empty list that will store aliens
-aliens = []
+aliens = []  # No type hint to avoid creating a mess.
 print(aliens)
 
 # make 10 green aliens

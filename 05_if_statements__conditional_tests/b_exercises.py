@@ -1,4 +1,4 @@
-alien_color = 'red'
+alien_color: str = 'red'
 
 if alien_color == 'green':
     print('You just earned 5 points.')
@@ -10,7 +10,7 @@ else:
 
 print('\n\n')
 
-favorite_fruits = ['grape', 'banana', 'strawberry', 'lemon']
+favorite_fruits: list[str] = ['grape', 'banana', 'strawberry', 'lemon']
 if 'grape' in favorite_fruits:
     print('Grapes are the best fruit in the world!')
 

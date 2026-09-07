@@ -1,12 +1,12 @@
 
-variable = 5
+number: int = 5
 
 # checking for equality
-if variable == 5:
+if number == 5:
     pass
 
 # checking for inequality
-if variable != 5:
+if number != 5:
     pass
 
 
