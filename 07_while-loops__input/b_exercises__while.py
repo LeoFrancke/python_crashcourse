@@ -1,22 +1,22 @@
-# 7.4 pizza ingredients
+# 7.4 pizza toppings
 
-ingredients: list[str] = []
-prompt = "What ingredients would you like to add to your pizza?"
+toppings: list[str] = []
+prompt = "\nWhat toppings would you like to add to your pizza?"
 prompt += "\nType 'quit' to stop. "
 
 while True:
-    ingredient = input(prompt)
+    topping = input(prompt)
 
-    if ingredient == 'quit':
+    if topping == 'quit':
         break
     else:
-        ingredients.append(ingredient)
-        print(f"Adding {ingredient} to your pizza...")
+        toppings.append(topping)
+        print(f"\nAdding {topping} to your pizza...")
 
 
 print("\nYour pizza will be made with...")
-if ingredients:
-    for item in ingredients:
+if toppings:
+    for item in toppings:
         print(f"\t{item}")
 else:
     print("\t...air.")
