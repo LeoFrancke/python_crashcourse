@@ -1,0 +1,21 @@
+# In object-oriented programming, you create objects based on classes
+
+
+class Dog:
+    """A simple attempt to model a dog."""
+
+    def __init__(self, name, age):
+        """Initialize name and age attributes."""
+        self.name = name
+        self.age = age
+
+
+    def sit(self):
+        """Simulate a dog sitting."""
+        print(f"{self.name} is now sitting.")
+    
+
+    def roll_over(self):
+        """Simulat a dog rolling over."""
+        print(f"{self.name} rolled over!")
+
