@@ -1,8 +1,3 @@
-# In object-oriented programming, you create objects based on classes
-
-# any variable prefixed with self is available to every method in the class.
-# these variables are called "attributes".
-
 class Dog:
     """A simple attempt to model a dog."""
 
