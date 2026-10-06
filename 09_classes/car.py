@@ -6,6 +6,7 @@ class Car:
         self.make = make
         self.model = model
         self.year = year
+        self.odometer_reading = 0
 
 
     def get_descriptive_name(self):
@@ -14,6 +15,14 @@ class Car:
         return long_name.title()
 
 
+    def read_odometer(self):
+        """Print car's mileage."""
+        print(f"This car has {self.odometer_reading} miles on it.")
+
+
 my_new_car = Car('audi', 'a4', 2007)
 print(my_new_car.get_descriptive_name())
+my_new_car.read_odometer()
+my_new_car.odometer_reading = 7
+my_new_car.read_odometer()
 
