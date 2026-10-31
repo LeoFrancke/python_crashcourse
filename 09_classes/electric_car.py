@@ -39,6 +39,11 @@ class Car:
             print("You can't roll back an odometer!")
 
 
+    def fill_gas_tank(self):
+        """Fill the gas tank."""
+        print("Filling your tank... Your tank is now full!")
+
+
 class ElectricCar(Car):
     """Represent aspects of a car, specific to electric vehicles."""
 
@@ -54,7 +59,19 @@ class ElectricCar(Car):
         print(f"This car has a {self.battery_size}-kWh battery.")
 
 
+    def fill_gas_tank(self):
+        """Overriding a method from the parent class."""
+        print("This car doesn't have a gas tank!")
+    
+
+old_car = Car('renault', 'sandero', 2007)
+print(old_car.get_descriptive_name())
+old_car.fill_gas_tank()
+
+print()
+
 my_leaf = ElectricCar('nissan', 'leaf', 2024)
 print(my_leaf.get_descriptive_name())
 my_leaf.describe_battery()
+my_leaf.fill_gas_tank()
 
